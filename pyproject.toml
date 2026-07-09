@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clean"
+version = "0.1.0"
+description = "A simple open-source CLI tool for cleaning CSV files."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+
+authors = [
+    { name = "Deep Chandravadiya" }
+]
+
+keywords = [
+    "csv",
+    "data-cleaning",
+    "pandas",
+    "machine-learning",
+    "cli",
+    "python"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+
+dependencies = []
